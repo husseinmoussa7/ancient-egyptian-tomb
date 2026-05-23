@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "tomb-explorer",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["/Users/hm/.nvm/versions/node/v18.20.8/bin/vite", "--port", "3333"],
+      "port": 3333
+    }
+  ]
+}
