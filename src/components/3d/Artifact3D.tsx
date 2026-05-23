@@ -238,8 +238,8 @@ function AnubisStatueModel({ color, emissive, emissiveIntensity, isOriginal }: M
       {/* Gold collar */}
       {isOriginal && (
         <>
-          <mesh position={[0, 1.2, 0.16]}>
-            <torusGeometry args={[0.23, 0.04, 8, 24, Math.PI * 0.8]} rotation={[Math.PI * 0.5, 0, 0]} />
+          <mesh position={[0, 1.2, 0.16]} rotation={[Math.PI * 0.5, 0, 0]}>
+            <torusGeometry args={[0.23, 0.04, 8, 24, Math.PI * 0.8]} />
             <meshStandardMaterial {...goldMat} />
           </mesh>
           {/* Flail/crook */}
